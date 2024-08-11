@@ -1,2 +1,14 @@
 # SkipList_K-V_DB
-This project implements an efficient Skip List data structure. A Skip List supports fast insertions, deletions, and searches with an average time complexity of O(log n). It combines features of linked lists and binary search trees to provide high performance while maintaining a relatively simple implementation.
+本项目实现了一个高效的跳表数据结构，基于LRU缓存进行过期管理。跳表是一种支持快速插入、删除、查找操作的数据结构，其平均时间复杂度为 O(log n)，是链表和二分查找树的高效结合。跳表适用于实现高效的有序数据集合，能够提供与平衡树类似的性能，但实现相对简单。
+
+# 运行示例
+```
+make
+./bin/main
+```
+# 压力测试
+```
+cd ./stress-test
+make
+./stress
+```
